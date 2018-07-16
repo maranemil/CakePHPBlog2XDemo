@@ -1,0 +1,402 @@
+2018-07-16 21:28:24 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:28:53 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:29:01 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:29:29 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:29:31 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:29:44 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:29:46 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:35:01 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:35:02 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:35:53 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:36:32 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:36:32 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:37:13 Error: [ParseError] syntax error, unexpected '$default' (T_VARIABLE), expecting identifier (T_STRING)
+Request URL: /webwww/web3/cakephp/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/ConnectionManager.php(83): ConnectionManager::_init()
+#1 /home/lime/WebWWW/web3/cakephp/app/View/Pages/home.ctp(91): ConnectionManager::getDataSource('default')
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(971): include('/home/lime/WebW...')
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(933): View->_evaluate('/home/lime/WebW...', Array)
+#4 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(473): View->_render('/home/lime/WebW...')
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render('home', NULL)
+#6 /home/lime/WebWWW/web3/cakephp/app/Controller/PagesController.php(72): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#11 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-07-16 21:44:49 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /webwww/web3/cakephp/posts/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('posts')
+#1 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /home/lime/WebWWW/web3/cakephp/app/Controller/PostsController.php(7): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-07-16 21:46:18 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /webwww/web3/cakephp/posts/
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('posts')
+#1 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /home/lime/WebWWW/web3/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-07-16 21:46:27 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /webwww/web3/cakephp/post
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-16 21:46:31 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /webwww/web3/cakephp/posts
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('posts')
+#1 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /home/lime/WebWWW/web3/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-07-16 21:47:01 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /webwww/web3/cakephp/posts
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('posts')
+#1 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /home/lime/WebWWW/web3/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-07-16 21:47:02 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /webwww/web3/cakephp/posts
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3673): Model->setSource('posts')
+#1 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3040): Model->getDataSource()
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/Model/Model.php(3012): Model->_readDataSource('all', Array)
+#3 /home/lime/WebWWW/web3/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2018-07-16 22:00:31 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /webwww/web3/cakephp/users/login
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-16 22:01:11 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /webwww/web3/cakephp/users/login
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-16 22:01:13 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /webwww/web3/cakephp/users/login
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-16 22:01:29 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /webwww/web3/cakephp/users/login
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-07-16 22:03:51 Error: [MissingActionException] Action UsersController::register() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'register',
+)
+Request URL: /webwww/web3/cakephp/users/register
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-07-16 22:05:05 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /webwww/web3/cakephp/users
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-07-16 22:05:34 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /webwww/web3/cakephp/users
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-07-16 22:06:02 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /webwww/web3/cakephp/users
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /home/lime/WebWWW/web3/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/lime/WebWWW/web3/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/lime/WebWWW/web3/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-07-16 22:15:11 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /webwww/web3/cakephpblog2x/users
+Stack Trace:
+#0 /home/lime/WebWWW/web3/cakephpblog2x/lib/Cake/View/View.php(470): View->_getViewFileName('Users/index')
+#1 /home/lime/WebWWW/web3/cakephpblog2x/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/lime/WebWWW/web3/cakephpblog2x/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/lime/WebWWW/web3/cakephpblog2x/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/lime/WebWWW/web3/cakephpblog2x/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

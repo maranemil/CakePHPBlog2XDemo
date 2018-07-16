@@ -1,0 +1,41 @@
+https://book.cakephp.org/2.0/en/getting-started.html
+https://book.cakephp.org/2.0/en/tutorials-and-examples/blog/blog.html
+https://book.cakephp.org/2.0/en/installation/url-rewriting.html
+https://book.cakephp.org/2.0/en/tutorials-and-examples/blog/part-two.html
+https://book.cakephp.org/2.0/en/tutorials-and-examples/blog-auth-example/auth.html
+https://book.cakephp.org/2.0/en/core-libraries/components/authentication.html
+https://book.cakephp.org/2.0/en/tutorials-and-examples/simple-acl-controlled-application/simple-acl-controlled-application.html
+https://book.cakephp.org/2.0/en/tutorials-and-examples/simple-acl-controlled-application/part-two.html
+https://book.cakephp.org/2.0/en/console-and-shells/code-generation-with-bake.html
+
+
+
+
+########################################################################
+#
+#   Getting CakePHP 2.x
+#   https://book.cakephp.org/2.0/en/getting-started.html
+#
+########################################################################
+
+
+
+git clone -b 2.x git://github.com/cakephp/cakephp.git
+chown -R www-data app/tmp
+
+/* First, create our posts table: */
+CREATE TABLE posts (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(50),
+    body TEXT,
+    created DATETIME DEFAULT NULL,
+    modified DATETIME DEFAULT NULL
+);
+
+/* Then insert some posts for testing: */
+INSERT INTO posts (title, body, created)
+    VALUES ('The title', 'This is the post body.', NOW());
+INSERT INTO posts (title, body, created)
+    VALUES ('A title once again', 'And the post body follows.', NOW());
+INSERT INTO posts (title, body, created)
+    VALUES ('Title strikes back', 'This is really exciting! Not.', NOW());
