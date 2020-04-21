@@ -27,67 +27,65 @@ App::uses('Controller', 'Controller');
  * Add your application-wide methods in the class below, your controllers
  * will inherit them.
  *
- * @package		app.Controller
- * @link		https://book.cakephp.org/2.0/en/controllers.html#the-app-controller
+ * @package        app.Controller
+ * @link        https://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
-
-
 // app/Controller/AppController.php
 class AppController extends Controller {
-    //...
+	//...
 
-    /*public $components = array(
-        'Flash',
-        'Auth' => array(
-            'loginRedirect' => array(
-                'controller' => 'posts',
-                'action' => 'index'
-            ),
-            'logoutRedirect' => array(
-                'controller' => 'pages',
-                'action' => 'display',
-                'home'
-            ),
-            'authenticate' => array(
-                'Form' => array(
-                    'passwordHasher' => 'Blowfish'
-                )
-            )
-        )
-    );*/
+	/*public $components = array(
+		'Flash',
+		'Auth' => array(
+			'loginRedirect' => array(
+				'controller' => 'posts',
+				'action' => 'index'
+			),
+			'logoutRedirect' => array(
+				'controller' => 'pages',
+				'action' => 'display',
+				'home'
+			),
+			'authenticate' => array(
+				'Form' => array(
+					'passwordHasher' => 'Blowfish'
+				)
+			)
+		)
+	);*/
 
-    // app/Controller/AppController.php
+	// app/Controller/AppController.php
 
-    public $components = array(
-        'Flash',
-        'Auth' => array(
-            'loginRedirect' => array('controller' => 'posts', 'action' => 'index'),
-            'logoutRedirect' => array(
-                'controller' => 'pages',
-                'action' => 'display',
-                'home'
-            ),
-            'authenticate' => array(
-                'Form' => array(
-                    'passwordHasher' => 'Blowfish'
-                )
-            ),
-            'authorize' => array('Controller') // Added this line
-        )
-    );
+	public $components = array(
+		'Flash',
+		'Auth' => array(
+			'loginRedirect'  => array('controller' => 'posts', 'action' => 'index'),
+			'logoutRedirect' => array(
+				'controller' => 'pages',
+				'action'     => 'display',
+				'home'
+			),
+			'authenticate'   => array(
+				'Form' => array(
+					'passwordHasher' => 'Blowfish'
+				)
+			),
+			'authorize'      => array('Controller') // Added this line
+		)
+	);
 
-    public function isAuthorized($user) {
-        // Admin can access every action
-        if (isset($user['role']) && $user['role'] === 'admin') {
-            return true;
-        }
+	public function isAuthorized($user) {
+		// Admin can access every action
+		if (isset($user['role']) && $user['role'] === 'admin') {
+			return true;
+		}
 
-        // Default deny
-        return false;
-    }
+		// Default deny
+		return false;
+	}
 
-    public function beforeFilter() {
-        $this->Auth->allow('index', 'view');
-    }
-    //...
+	public function beforeFilter() {
+		$this->Auth->allow('index', 'view');
+	}
+	//...
 }
