@@ -2,34 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84a2181-f8fd-4ad0-9da5-42abeeaca586" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/acl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/acl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/AppController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controller/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/PagesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controller/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controller/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/AppModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/AppModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/View/Elements/Flash/default.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Elements/Flash/default.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Helper/AppHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Helper/AppHelper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/View/Layouts/default.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Layouts/default.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Layouts/error.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Layouts/error.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Layouts/flash.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Layouts/flash.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Pages/home.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Pages/home.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Posts/index.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Posts/index.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Users/add.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Users/add.ctp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Users/login.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Users/login.ctp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,15 +35,17 @@
   <component name="ProjectId" id="1aqEwx3yiquudwIGcDj54wAv3nI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -57,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531776375811</updated>
       <workItem from="1587454975909" duration="350000" />
+      <workItem from="1614286972375" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="howto">
       <created>1531776500069</created>
@@ -69,7 +70,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />

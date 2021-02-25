@@ -1,17 +1,28 @@
 <?php
 
+/**
+ * Class Post
+ */
 class Post extends AppModel {
-	public $validate = array(
-		'title' => array(
-			'rule' => 'notBlank'
-		),
-		'body'  => array(
-			'rule' => 'notBlank'
-		)
-	);
+   /**
+	* @var string[][]
+	*/
+   public $validate = array(
+	   'title' => array(
+		   'rule' => 'notBlank'
+	   ),
+	   'body'  => array(
+		   'rule' => 'notBlank'
+	   )
+   );
 
-	// app/Model/Post.php
-	public function isOwnedBy($post, $user) {
-		return $this->field('id', array('id' => $post, 'user_id' => $user)) !== false;
-	}
+   /**
+	* @param $post
+	* @param $user
+	*
+	* @return bool
+	*/
+   public function isOwnedBy($post, $user) {
+	  return $this->field('id', array('id' => $post, 'user_id' => $user)) !== false;
+   }
 }

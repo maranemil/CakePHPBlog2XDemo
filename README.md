@@ -5,7 +5,7 @@
 [![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](https://travis-ci.org/cakephp/cakephp)
 [![Code consistency](https://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/grade.svg)](https://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/)
 
-[![Editor Screen](https://raw.githubusercontent.com/maranemil/CakePHPBlog2XDemo/master/Screen/Bildschirmfoto.png)](#features)
+[![Editor Screen](https://raw.githubusercontent.com/maranemil/CakePHPBlog2XDemo/master/Screen/Bildschirmfoto.png)]
 
 
 CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC.
