@@ -1,4 +1,4 @@
-<?php
+<?php /** @noinspection PhpMultipleClassDeclarationsInspection */
 /**
  * Application level Controller
  * This file is application-wide controller file. You can put all
@@ -24,74 +24,72 @@ App::uses('Controller', 'Controller');
  * @package        app.Controller
  * @link           https://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
-
 // app/Controller/AppController.php
 
-class AppController extends Controller {
+class AppController extends Controller
+{
 
-   /*public $components = array(
-	   'Flash',
-	   'Auth' => array(
-		   'loginRedirect' => array(
-			   'controller' => 'posts',
-			   'action' => 'index'
-		   ),
-		   'logoutRedirect' => array(
-			   'controller' => 'pages',
-			   'action' => 'display',
-			   'home'
-		   ),
-		   'authenticate' => array(
-			   'Form' => array(
-				   'passwordHasher' => 'Blowfish'
-			   )
-		   )
-	   )
-   );*/
+    /*public $components = array(
+        'Flash',
+        'Auth' => array(
+            'loginRedirect' => array(
+                'controller' => 'posts',
+                'action' => 'index'
+            ),
+            'logoutRedirect' => array(
+                'controller' => 'pages',
+                'action' => 'display',
+                'home'
+            ),
+            'authenticate' => array(
+                'Form' => array(
+                    'passwordHasher' => 'Blowfish'
+                )
+            )
+        )
+    );*/
 
-   // app/Controller/AppController.php
+    // app/Controller/AppController.php
 
-   /**
-	* @var array
-	*/
-   public $components = array(
-	   'Flash',
-	   'Auth' => array(
-		   'loginRedirect'  => array('controller' => 'posts', 'action' => 'index'),
-		   'logoutRedirect' => array(
-			   'controller' => 'pages',
-			   'action'     => 'display',
-			   'home'
-		   ),
-		   'authenticate'   => array(
-			   'Form' => array(
-				   'passwordHasher' => 'Blowfish'
-			   )
-		   ),
-		   'authorize'      => array('Controller') // Added this line
-	   )
-   );
+    /**
+     * @var array
+     */
+    public $components
+        = array(
+            'Flash',
+            'Auth' => array(
+                'loginRedirect'  => array('controller' => 'posts', 'action' => 'index'),
+                'logoutRedirect' => array(
+                    'controller' => 'pages',
+                    'action'     => 'display',
+                    'home'
+                ),
+                'authenticate'   => array(
+                    'Form' => array(
+                        'passwordHasher' => 'Blowfish'
+                    )
+                ),
+                'authorize'      => array('Controller') // Added this line
+            )
+        );
 
-   /**
-	* @param $user
-	*
-	* @return bool
-	*/
-   public function isAuthorized($user) {
-	  // Admin can access every action
-	  if (isset($user['role']) && $user['role'] === 'admin') {
-		 return true;
-	  }
+    /**
+     * @param $user
+     *
+     * @return bool
+     */
+    public function isAuthorized($user)
+    {
+        // Admin can access every action
+        return isset($user['role']) && $user['role'] === 'admin';
+    }
 
-	  // Default deny
-	  return false;
-   }
-
-   /**
-	*
-	*/
-   public function beforeFilter() {
-	  $this->Auth->allow('index', 'view');
-   }
+    /**
+     *
+     */
+    public function beforeFilter()
+    {
+        $this->Auth->allow('index', 'view');
+    }
 
 }

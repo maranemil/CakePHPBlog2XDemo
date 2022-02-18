@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84a2181-f8fd-4ad0-9da5-42abeeaca586" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/AppController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/PagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controller/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/AppModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/AppModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Elements/Flash/default.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Elements/Flash/default.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Helper/AppHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Helper/AppHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Layouts/default.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Layouts/default.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Pages/home.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Pages/home.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Posts/index.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Posts/index.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Users/add.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Users/add.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Users/login.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Users/login.ctp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +42,7 @@
       <updated>1531776375811</updated>
       <workItem from="1587454975909" duration="350000" />
       <workItem from="1614286972375" duration="595000" />
+      <workItem from="1645225639387" duration="438000" />
     </task>
     <task id="LOCAL-00001" summary="howto">
       <created>1531776500069</created>

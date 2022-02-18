@@ -15,7 +15,7 @@
  */
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title><?php echo $pageTitle; ?></title>

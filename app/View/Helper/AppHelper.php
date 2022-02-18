@@ -1,4 +1,4 @@
-<?php
+<?php /** @noinspection PhpMultipleClassDeclarationsInspection */
 /**
  * Application level View Helper
  * This file is application-wide helper file. You can put all
@@ -23,5 +23,6 @@ App::uses('Helper', 'View');
  * will inherit them.
  * @package       app.View.Helper
  */
-class AppHelper extends Helper {
+class AppHelper extends Helper
+{
 }
